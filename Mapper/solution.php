@@ -14,6 +14,7 @@ namespace MyCompanyShop {
         public $url;
     }
 
+    //all of the read/write happens in the mapper
     class ProductMapper
     {
         public function toProduct($data)
